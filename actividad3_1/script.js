@@ -15,11 +15,11 @@ function validateEmail(){
 
 window.addEventListener('load', init, false);
 function init() {
-    let div = document.querySelector('#ocultar-y-mostrar');//recibe el id del div
-    div.style.visibility = 'visible';// le da el parametro de visible 
-    let boton = document.querySelector('#ocultar-mostrar');// el boton recibe el id del boton 
-    boton.addEventListener('click', function (e) {// se le agrega un evento al dar click 
-        if (div.style.visibility === 'visible') {// si el evento esta en visible, entonces lo oculta 
+    let div = document.querySelector('#ocultar-y-mostrar');
+    div.style.visibility = 'visible';
+    let boton = document.querySelector('#ocultar-mostrar');
+    boton.addEventListener('click', function (e) {
+        if (div.style.visibility === 'visible') {
             div.style.visibility = 'hidden';
         } else {
             div.style.visibility = 'visible';
