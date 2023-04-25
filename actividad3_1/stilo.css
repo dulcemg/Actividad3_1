@@ -1,0 +1,21 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    white-space: pre-wrap;
+    font-size: 40px;
+  }
+
+p{
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
+    color: azure;
+    font-size: 25px;
+}
+
+body {
+    background-color: black; /* establece el fondo en rojo */
+  }
+
